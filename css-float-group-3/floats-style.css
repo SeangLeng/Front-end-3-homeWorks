@@ -1,0 +1,29 @@
+* {
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+}
+.seaction1, .section2 {
+    width: 70%;
+    margin: 1rem 0 0 0;
+}
+.seaction1 img{
+    float: right;
+    width: 400px;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+}
+.section2 img {
+    float: left;
+    width: 400px;
+    margin-right: 2rem;
+}
